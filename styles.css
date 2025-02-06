@@ -1,0 +1,45 @@
+body {
+    background-color: #b9fbc0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 10rem;
+}
+
+#containerHead {
+    text-decoration: underline;
+    font-size: 5rem;
+}
+
+#inputUserUrl {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+#btnGenerate {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    transform: translate(0px, -2px);
+}
+
+#qrImage {
+    margin-top: 5rem;
+    width: 20rem;
+    border-radius: 10px;
+}
