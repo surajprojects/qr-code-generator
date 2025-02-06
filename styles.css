@@ -43,3 +43,8 @@ body {
     width: 20rem;
     border-radius: 10px;
 }
+
+#msg {
+    margin-top: 4rem;
+    color: red;
+}

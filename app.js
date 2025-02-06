@@ -8,6 +8,13 @@ async function getqrcode(inputUrl) {
         if (response.ok) {
             displayResult(response.url);
         }
+        else if (response.status === 422) {
+            showResult.textContent = "";
+            const msg = document.createElement("p");
+            msg.id = "msg";
+            msg.textContent = "Invalid URL";
+            showResult.append(msg);
+        }
     }
     catch (error) {
         console.error("Unable to get data, something went wrong!!!");
