@@ -21,7 +21,7 @@ This is a simple QR Code Generator built using React, Vite, and TypeScript. User
 
 ## Deployment
 
-This web app is deployed using GitHub Pages by Tiger. You can access the live version here: [QR Code Generator](https://surajprojects.github.io/qr-code-generator)
+This web app is deployed using Vercel by Tiger. You can access the live version here: [QR Code Generator](https://qr-code-generator-secondary.vercel.app/)
 
 ## Getting Started
 
